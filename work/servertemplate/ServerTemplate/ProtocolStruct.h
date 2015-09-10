@@ -1,0 +1,15 @@
+#pragma once
+
+typedef struct _S_PT_OVERLAP_USER_ID
+{
+	CHAR USER_ID[32];
+} S_PT_OVERLAP_USER_ID;
+
+typedef struct _S_PT_OVERLAP_USER_ID_SUCC_U
+{
+} S_PT_OVERLAP_USER_ID_SUCC_U;
+
+typedef struct _S_PT_OVERLAP_USER_ID_FAIL_U
+{
+	DWORD ERROR_CODE;
+} S_PT_OVERLAP_USER_ID_FAIL_U;
